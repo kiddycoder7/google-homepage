@@ -1,0 +1,214 @@
+.topmenu
+{
+   text-align: right;
+   padding: 20px;
+
+   /*border: 1px solid red;*/
+}
+
+.topmenu a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+   
+    padding: 10px;
+    
+}
+
+.topmenu button
+{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #4285f4;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+
+.topmenu button:hover
+{
+    background-color: #669df7;
+    cursor: pointer;
+}
+
+.container
+{
+    text-align: center;
+    padding: 20vh;
+
+    /*border: 1px solid blue;*/
+    
+}
+
+.searching
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /*border: 1px solid red;*/
+}
+
+.searching div
+{
+    margin: 1vh;
+    width: 50vw;
+    
+
+
+    /*border: 1px solid green;*/
+}
+
+.searchbar
+{
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.searching button
+{
+    margin: 1vw;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+}
+
+.searching button:hover
+{
+    border: 1px solid rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+.language
+{
+    font-size: 12px;
+    
+}
+
+.language a
+{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.bottomnav
+{
+    display: flex;
+    flex-direction: column;    
+    /*border: 1px solid orange;*/    
+    background-color: #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    
+    font-size: 12px;
+
+}
+
+.bottomnav div
+{
+    padding: 1vh;
+    border-bottom: 0.1px solid gray; 
+   
+   
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.navbar li
+{
+    display: inline;
+        
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: gray;
+    padding: 0 1vw 0 0;
+}
+/*Search Result CSS start here*/
+
+.resultnav
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid red;*/
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#searchbar2
+{
+    width: 40%;
+    max-width: 50%;
+    padding: 0 0 0 0;
+    
+}
+
+.searchfollow
+{
+    
+    border: 1px solid red;
+    margin: 0 2vw 0 0;
+    padding: 2vh 2vw;
+}
+
+.searchfollow img
+{
+    padding-right: 2%;
+    width: 90px;
+    
+    
+}
+
+.nonfollow
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nonfollow ul
+{
+    padding-left: 15vw;
+    
+    
+    /*border: 1px solid blue;*/
+}
+
+.nonfollow li
+{
+    display: inline;
+}
+
+.nonfollow a
+{
+    text-decoration: none;
+    color: gray;
+    padding: 0 1vw 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.result-text
+{
+    height: 200vw;
+    background-color: rgb(196, 196, 196);
+}
